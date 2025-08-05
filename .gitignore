@@ -1,0 +1,18 @@
+# Log Files
+*.log
+*.pcap
+*.json
+*.tmp
+
+# Suricata logs
+/var/log/suricata/*
+!/var/log/suricata/README.md
+
+# Obsidian system files
+.obsidian/
+.DS_Store
+
+# System files
+*.swp
+*.swo
+*~
